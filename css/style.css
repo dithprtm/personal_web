@@ -28,17 +28,11 @@
 }
 
 
-.about {
-  text-align: justify;
-  word-wrap: break-word;
-}
-
-
-
 body{
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 
-  }
+}
+
