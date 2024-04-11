@@ -36,3 +36,8 @@ body{
 
 }
 
+.about {
+  text-align: justify;
+  word-wrap: break-word;
+}
+
