@@ -68,3 +68,8 @@ body {
 .active .parallax-layer2 {
   transform: translateY(0); /* Menggeser ke posisi awal */
 }
+
+.zoomable-image {
+  transition: transform 0.5s ease;
+}
+
