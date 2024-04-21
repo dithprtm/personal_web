@@ -53,23 +53,46 @@ body {
 
 .parallax-layer1 {
   transition: transform 3s ease-out;
-  transform: translateY(-50px); /* Mulai dengan pergeseran ke bawah */
+  transform: translateY(-50px); 
 }
 
 .active .parallax-layer1 {
-  transform: translateY(0); /* Menggeser ke posisi awal */
+  transform: translateY(0); 
 }
 
 .parallax-layer2 {
   transition: transform 3s ease-out;
-  transform: translateX(120px); /* Mulai dengan pergeseran ke bawah */
+  transform: translateX(120px); 
 }
 
 .active .parallax-layer2 {
-  transform: translateY(0); /* Menggeser ke posisi awal */
+  transform: translateY(0); 
 }
+
 
 .zoomable-image {
   transition: transform 0.5s ease;
 }
 
+
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+@media (max-width: 799px){
+  .margin-top{
+    margin-top: 180px;
+  
+  }
+
+}
+
+@media (min-width: 800px){
+  .margin-top{
+    margin-top: 110px;
+  }
+}
